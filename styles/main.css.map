@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"main.css"}
+{"version":3,"sources":["main.scss","main.css"],"names":[],"mappings":"AAAA;EACE,sBAAA;ACCF;;ADEA;EACE,gBAAA;ACCF;;ADEA;EACE,WAAA;EACA,gBAAA;ACCF","file":"main.css","sourcesContent":["* {\n  box-sizing: border-box;\n}\n\nhtml {\n  font-size: 62.5%;\n}\n\nimg {\n  width: 100%;\n  max-width: 200px;\n}\n","* {\n  box-sizing: border-box;\n}\n\nhtml {\n  font-size: 62.5%;\n}\n\nimg {\n  width: 100%;\n  max-width: 200px;\n}"]}
