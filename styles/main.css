@@ -22,4 +22,10 @@ body {
 img {
   width: 100%;
   border: 2px solid var(--black);
+}
+
+.font-fam {
+  text-transform: uppercase;
+  font-family: var(--hamOne);
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
