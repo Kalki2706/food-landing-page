@@ -21,15 +21,5 @@ body {
 
 img {
   width: 100%;
-  max-width: 200px;
-}
-
-header {
-  background: url(../assets/hero-img.jpg) center no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
-
-.hero-section {
-  // margin: 0;
+  border: 2px solid var(--black);
 }
