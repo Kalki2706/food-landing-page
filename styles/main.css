@@ -73,4 +73,21 @@ h4 {
   color: var(--white);
   text-transform: uppercase;
   padding: 0 0.5em;
+}
+.hero-section p {
+  font: 2rem var(--slow);
+}
+.hero-section .head-button h1 {
+  font: 4rem var(--hamOne);
+  margin-bottom: 0.5em;
+  letter-spacing: 1.5px;
+}
+.hero-section .head-button .cta {
+  background: var(--white);
+  color: var(--black);
+  text-transform: none;
+}
+.hero-section .head-button .cta:hover {
+  color: var(--white);
+  background: var(--black);
 }/*# sourceMappingURL=main.css.map */
