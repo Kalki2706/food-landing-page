@@ -171,3 +171,25 @@ h4 {
     max-width: 550px;
   }
 }
+
+// FEEDBACK_SECTION STYLING
+.review-section {
+  color: var(--white);
+  background: var(--black);
+  text-align: left;
+  padding: 2em 4em;
+
+  h3 {
+    text-align: left;
+  }
+
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .quote-svg {
+    max-width: 30px;
+  }
+}
