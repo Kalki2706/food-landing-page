@@ -97,3 +97,66 @@ h4 {
     }
   }
 }
+
+// ABOUT_SECTION STYLING
+.about-section {
+  .product-img {
+    display: flex;
+    flex-direction: column;
+
+    .about-img {
+      max-width: 295px;
+      margin-bottom: 0.5em;
+    }
+
+    .first-img {
+      animation: left forwards 1s 1;
+
+      @keyframes left {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(0%);
+        }
+      }
+    }
+
+    .second-img {
+      align-self: flex-end;
+      animation: right forwards 1s ease 1;
+
+      @keyframes right {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(0%);
+        }
+      }
+    }
+  }
+
+  .about-us {
+    text-align: center;
+
+    h2 {
+      margin: 0.5em 0;
+    }
+
+    p {
+      text-align: left;
+      margin-bottom: 1.5em;
+    }
+
+    .book--btn {
+      color: var(--white);
+      background: var(--black);
+
+      &:hover {
+        background: var(--white);
+        color: var(--black);
+      }
+    }
+  }
+}
