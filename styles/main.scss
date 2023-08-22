@@ -193,3 +193,27 @@ h4 {
     max-width: 30px;
   }
 }
+
+// CONTACT_SECTION STYLING
+.contact-section {
+  text-align: center;
+  padding: 1em 0;
+
+  img {
+    max-width: 400px;
+  }
+
+  h2 {
+    margin: 1em 0 0.4em;
+  }
+
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    h3 {
+      margin-bottom: -0.8em;
+    }
+  }
+}
