@@ -2,9 +2,9 @@
   --cream-white: #f5f5ef;
   --white: #fff;
   --black: #000;
-  --hamOne: "Hammersmith One";
-  --hkGrotesk: "Hanken Grotesk";
-  --slow: "Solway";
+  --hamOne: 'Hammersmith One';
+  --hkGrotesk: 'Hanken Grotesk';
+  --slow: 'Solway';
 }
 
 * {
@@ -186,4 +186,4 @@ h4 {
 }
 .contact-section .contact-details h3 {
   margin-bottom: -0.8em;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
